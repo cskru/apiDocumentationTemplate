@@ -1,0 +1,181 @@
+<!--Author: Kruthika-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+       
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+        <title>Getting started - Rest client</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="nav-wrapper">
+                    <ul class="right">
+                        <li><a href="./index.html">Getting started</a></li>
+                        <li><a href="./apiDocs.html">Client api documentation</a></li>
+                        <li class="active"><a href="./tutorial.html">Tutorials</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <section class="container">
+                <div class="tutorial">
+                    <div class="row">
+                        <h2>create A</h2>
+                        <hr/>
+                        <p class="apiDescription">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Maecenas ut purus nec neque porta blandit id eu quam. 
+Pellentesque bibendum sodales libero, id mollis tellus tempus ut. 
+Integer suscipit viverra diam, vel sagittis odio laoreet a.</p>
+                        <a class="apiDocsLink" href="#linktojsdoc">API docs - createA</a>
+                        <ul class="collapsible" data-collapsible="accordion">
+                        <li>
+                          <div class="collapsible-header">HTTP Request/Response</div>
+                          <div class="collapsible-body">
+                            <span>
+                                <pre>
+<u><em>Request:</em></u>
+POST /a/b/c
+HOST: localhost:8080
+Content-type:application/json
+json: {
+    a:b,
+    c:d
+}   
+
+<u><em>Response:</em></u>
+json: {
+    a:b,
+    c:d
+}
+                                </pre>
+                            </span>  
+                          </div>
+                        </li>
+                        <li>
+                          <div class="collapsible-header">NodeJS</div>
+                          <div class="collapsible-body">
+                            <span>
+                            <pre>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Maecenas ut purus nec neque porta blandit id eu quam. 
+Pellentesque bibendum sodales libero, id mollis tellus tempus ut. 
+Integer suscipit viverra diam, vel sagittis odio laoreet a. 
+Maecenas eget dolor nec nisi euismod maximus. 
+Aliquam viverra pellentesque justo quis rutrum. 
+Etiam in dui lectus. 
+Vivamus lectus turpis, fringilla a augue eu, luctus ornare velit. 
+Ut quis urna vitae mauris vestibulum pretium.
+                            </pre>
+                          </span>   
+                          </div>
+                        </li>
+                        <li>
+                          <div class="collapsible-header">Java</div>
+                          <div class="collapsible-body">
+                            <span>
+                            <pre>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Maecenas ut purus nec neque porta blandit id eu quam. 
+Pellentesque bibendum sodales libero, id mollis tellus tempus ut. 
+Integer suscipit viverra diam, vel sagittis odio laoreet a. 
+Maecenas eget dolor nec nisi euismod maximus. 
+Aliquam viverra pellentesque justo quis rutrum. 
+Etiam in dui lectus. 
+Vivamus lectus turpis, fringilla a augue eu, luctus ornare velit. 
+Ut quis urna vitae mauris vestibulum pretium.
+                            </pre>
+                          </span> 
+                          </div>
+                        </li>
+                    </ul>
+                        <h3>Example:</h3>
+                        <pre class="example-code">
+Code comes here..
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Maecenas ut purus nec neque porta blandit id eu quam. 
+Pellentesque bibendum sodales libero, id mollis tellus tempus ut. 
+Integer suscipit viverra diam, vel sagittis odio laoreet a. 
+Maecenas eget dolor nec nisi euismod maximus. 
+Aliquam viverra pellentesque justo quis rutrum. 
+Etiam in dui lectus. 
+Vivamus lectus turpis, fringilla a augue eu, luctus ornare velit. 
+Ut quis urna vitae mauris vestibulum pretium.
+                        </pre>
+                        
+                        <h3>Output:</h3>
+                        <pre class="example-code">
+Output of the above example
+{
+    a:b,
+    c:d,
+    blbla:10
+}
+                        </pre>
+                    
+                    </div>
+                </div>
+                <div class="rightSection">
+                    <ul class="collapsible" data-collapsible="accordion">
+                        <li>
+                          <div class="collapsible-header">POST</div>
+                          <div class="collapsible-body">
+                            <div class="collection">
+                                <a href="#!" class="collection-item">createA</a>
+                                <a href="#!" class="collection-item active">createB</a>
+                                <a href="#!" class="collection-item">createC</a>
+                                <a href="#!" class="collection-item">createD</a>
+                            </div>  
+                          </div>
+                        </li>
+                        <li>
+                          <div class="collapsible-header">GET</div>
+                          <div class="collapsible-body">
+                            <div class="collection">
+                                <a href="#!" class="collection-item">getA</a>
+                                <a href="#!" class="collection-item active">getB</a>
+                                <a href="#!" class="collection-item">getC</a>
+                                <a href="#!" class="collection-item">getD</a>
+                            </div>  
+                          </div>
+                        </li>
+                        <li>
+                          <div class="collapsible-header">PUT</div>
+                          <div class="collapsible-body">
+                            <div class="collection">
+                                <a href="#!" class="collection-item">updateA</a>
+                                <a href="#!" class="collection-item active">updateB</a>
+                                <a href="#!" class="collection-item">updateC</a>
+                                <a href="#!" class="collection-item">updateD</a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="collapsible-header">DELETE</div>
+                          <div class="collapsible-body">
+                            <div class="collection">
+                                <a href="#!" class="collection-item">deleteA</a>
+                                <a href="#!" class="collection-item active">deleteB</a>
+                                <a href="#!" class="collection-item">deleteC</a>
+                                <a href="#!" class="collection-item">deleteD</a>
+                            </div>  
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+    
+    </body>  
+    
+</html>
